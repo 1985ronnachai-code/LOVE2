@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  background: #0b0b0b;
+  overflow: hidden;
+}
+
+#container span {
+  position: absolute;
+  color: hotpink;
+  font-size: 16px;
+  font-weight: bold;
+  pointer-events: none;
+
+  text-shadow:
+    0 0 6px hotpink,
+    0 0 12px rgba(255,105,180,0.8),
+    0 0 20px rgba(255,105,180,0.6),
+    0 0 30px rgba(255,105,180,0.4);
+
+  transition: opacity 0.3s linear;
+}
